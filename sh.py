@@ -34,6 +34,6 @@ def get_text_messages(message):
 	if resp != "" :
 		bot.send_message(message.chat.id,resp)
 
-bot.polling(none_stop=True, interval=5)
+bot.polling(none_stop=True, interval=1)
 
 
