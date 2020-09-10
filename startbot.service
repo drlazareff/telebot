@@ -1,9 +1,0 @@
-[Unit]
-Description=My script service
-After=network.target
-
-[Service]
-ExecStart=/etc/init/evs.sh
-
-[Install]
-WantedBy=default.target
